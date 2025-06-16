@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Arabic:wght@100..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=WDXL+Lubrifont+TC&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div
+        class="w-full md:h-screen h-96 bg-[url('https://hannaphoto.com/wp-content/uploads/2020/05/sam_hanna_new_orleans_food_photographer-1.jpg')] bg-cover bg-no-repeat">
+
+        <div id="bgg" class="w-full md:h-screen h-96">
+            <nav class="bg-red-950 text-white md:p-8 p-4 fixed md:static w-full">
+                <ul class="flex justify-evenly items-center">
+                    <li class="text-lg hover:text-yellow-200">Specials</li>
+                    <li class="text-lg hover:text-yellow-200 cursor-pointer
+                    ">About</li>
+                    <li class="text-lg hover:text-yellow-200 cursor-pointer
+                    ">Menu</li>
+                    <li class="text-lg hover:text-yellow-200 cursor-pointer
+                    ">Chef</li>
+                    <li class="text-lg hover:text-yellow-200 cursor-pointer
+                    ">Contact</li>
+                </ul>
+            </nav>
+
+
+            <div class="text-white flex justify-center items-center flex-col md:pt-55 pt-20 ">
+                <h1 class="md:text-9xl text-6xl">Gusto</h1>
+                <p class="mt-5 text-center">Where every meal is a masterpiece and every visit feels like home.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- specials -->
+    <div class="flex justify-center items-center flex-col">
+        <h1 class="text-3xl md:mt-20 mt-8">OUR SPECIALS</h1>
+        <div class="w-40 h-1 bg-red-500 my-6 "></div>
+
+
+        <div class="md:grid grid-cols-3 w-full my-10 md:px-40 px-4 ">
+            <div class="md:p-8 text-center">
+                <h1 class="text-2xl">Lorem ipsum dolor</h1>
+                <img class="mt-3 max-h-56 w-full"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexBia36ixX_U4FoPlg0iqv2hZIvfRyeH8LQ&s"
+                    alt="no image">
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis quia
+                    beatae</p>
+            </div>
+            <div class="md:p-8 p-1 text-center">
+                <h1 class="text-2xl">Lorem ipsum dolor</h1>
+                <img class="mt-3 max-h-56 w-full"
+                    src="https://media.istockphoto.com/id/166219644/photo/fillet-of-salmon.jpg?s=612x612&w=0&k=20&c=sSkgHDJSIT2ksdh3oF8bnpKfoc5nhSgMvIyuJpHrhGU="
+                    alt="no image">
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis quia
+                    beatae</p>
+            </div>
+            <div class="md:p-8 p-1 text-center">
+                <h1 class="text-2xl">Lorem ipsum dolor</h1>
+                <img class="mt-3 max-h-56 w-full"
+                    src="https://media.istockphoto.com/id/1455375881/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?b=1&s=612x612&w=0&k=20&c=lg1dCcNZAPDbTo1Z4VfBjwKF5AkJHqTYgVSKEXYWsqY="
+                    alt="no image">
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis quia
+                    beatae</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- our story -->
+    <div class="my-10 bg-slate-200">
+        <div class="md:grid grid-cols-2">
+
+            <div>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/0a/27/87/dining-area.jpg"
+                    alt="no image" class="w-full h-full">
+            </div>
+
+            <div class="flex justify-center items-center flex-col md:px-20 px-8 md:py-10">
+                <h1 class="text-3xl font-semibold mt-10 md:mt-10 ">OUR STORY</h1>
+                <div class="w-40 h-1 bg-red-500 my-6 "></div>
+                <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum rem possimus sit
+                    quaerat qui necessitatibus placeat, sapiente, eum accusantium, reprehenderit ea accusamus facilis
+                    corporis sed quis repudiandae quod ex quisquam accusamus facilis corporis sed quis repudiandae quod
+                    ex quisquam.</p>
+                <p class="text-justify mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias ab labore
+                    placeat non! Quod itaque dolores quisquam ipsa porro numquam iusto, voluptate, error aut quos illo
+                    nobis aperiam, accusantium esse!
+                    Explicabo quod, perspiciatis fugiat omnis delectus velit ullam excepturi recusandae optio est. Ipsa
+                    sed aliquam quis sapiente id, nihil corporis doloremque commodi suscipit libero voluptate porro
+                    mollitia, rem distinctio ad!sed aliquam quis sapiente id, nihil corporis doloremque commodi suscipit
+                    libero voluptate porro mollitia, rem distinctio.</p>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="md:my-15">
+        <div class="flex justify-center items-center flex-col">
+            <h1 class="text-3xl">MENU</h1>
+            <div class="w-20 h-1 bg-red-500 my-6"></div>
+        </div>
+
+        <div class="md:grid grid-cols-2 md:px-40 px-10 md:mt-20 mt-5">
+            <div>
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class="md:text-3xl text-2xl ">BREAKFAST & STARTS</h1>
+                    <div class="w-20 h-1 bg-red-500 my-6"></div>
+                </div>
+                <div class="mt-10 ">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+            </div>
+
+            <div class="md:ps-15">
+
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class="md:text-3xl text-2xl mt-10 md:mt-0">MAIN COURSE</h1>
+                    <div class="w-20 h-1 bg-red-500 my-6"></div>
+                </div>
+
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <h1 class="text-2xl">Tortellini Skewers</h1>
+                        <h1 class="text-2xl">$9</h1>
+                    </div>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorum Facere
+                        optio fuga voluptatem iste incidunt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallery -->
+    <div>
+        <div class="grid md:grid-cols-4 grid-cols-2 md:mt-20 mt-10 md:">
+            <div><img
+                    src="https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4="
+                    alt="no image" class="w-full"></div>
+            <div><img
+                    src="https://media.istockphoto.com/id/1214305490/photo/blackforest-cake.jpg?s=612x612&w=0&k=20&c=yxQZHJ6HSGamPFo5UId6JeC0RICcuZo1DuXfYWIdpyY="
+                    alt="no image" class="w-full"></div>
+            <div><img
+                    src="https://media.istockphoto.com/id/1177031727/photo/pumpkin-and-carrot-soup-with-cream-on-grey-stone-background-top-view.jpg?s=612x612&w=0&k=20&c=HmxXL082ccHLy1KAKJxyD-bMcvzTV-OrpoBhtUhV500="
+                    alt="no image" class="w-full"></div>
+            <div><img
+                    src="https://media.istockphoto.com/id/936899360/photo/lettuce-wraps-with-chicken-carrot-peanuts-and-scallion-stuffed-iceberg-lettuce-leaves-with.jpg?s=612x612&w=0&k=20&c=cQZ7e8sE9iBqixrh19-4TvHYW-6Zfr5b54UlXI6K1lc="
+                    alt="no image" class="w-full"></div>
+
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="bg-slate-600 text-white py-2">
+        <div class="grid md:grid-cols-3">
+            <div class="flex justify-center items-center flex-col mt-2">
+                <h1 class="text-xl">RESERVATIONS</h1>
+                <div class="w-20 h-1 bg-red-500 my-6"></div>
+                <p>Please call</p>
+                <p>(887)654-3210</p>
+            </div>
+            <div class="flex justify-center items-center flex-col mt-2">
+                <h1 class="text-xl">ADDRESS</h1>
+                <div class="w-20 h-1 bg-red-500 my-6"></div>
+                <p>4321 California St,</p>
+                <p>San Francisco,CA 12345</p>
+            </div>
+            <div class="flex justify-center items-center flex-col mt-2">
+                <h1 class="text-xl">OPENING HOURS</h1>
+                <div class="w-20 h-1 bg-red-500 my-6"></div>
+                <p>Mon-Thurs;10:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="flex justify-center items-center flex-col mt-20">
+                <h1 class="text-xl">SEND US A MESSAGE</h1>
+                <div class="w-20 h-1 bg-red-500 my-6"></div>
+            </div>
+
+
+            <div class="md:grid grid-cols-2 md:gap-3  md:mx-110 mx-15 mt-3">
+                <div class="mb-3 md:mb-0">
+                    <input type="text" placeholder="Name"
+                        class="border bg-white w-full placeholder:text-gray-500 h-9 p-1">
+                </div>
+                <div class="mb-3 md:mb-0">
+                    <input type="text" placeholder="Email"
+                        class="border bg-white w-full placeholder:text-gray-500 h-9 p-1">
+                </div>
+                <div class="col-span-2 ">
+                    <textarea placeholder="Message"
+                        class="border bg-white w-full placeholder:text-gray-500 p-1 h-30 border-white"></textarea>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center mt-10 mb-10">
+                <button class="border border-white px-6 py-3">SEND MESSAGE</button>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- footer -->
+    <footer class="bg-slate-900 w-full h-auto  flex md:justify-between items-center md:flex-row flex-col">
+        <div class="text-white md:ps-45 px-auto mb:pb-7 pb-3 md:pt-7 pt-8 text-center md:text-left">
+            <p>©Copyright.All rights reserved|Designed by Fathimathul Raifa</p>
+        </div>
+
+        <div class="flex justify-evenly">
+            <div class="md:m-8 m-2"><i class="fa-brands fa-facebook fa-lg text-white"></i></div>
+            <div class="md:m-8 m-2"><i class="fa-brands fa-x-twitter fa-lg text-white"></i></div>
+            <div class="md:m-8 m-2"><i class="fa-brands fa-instagram fa-lg text-white"></i></div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
